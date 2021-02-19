@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:12.20.2-buster-slim
 
 # non-root user 'node' is defined by the base image
 ENV HOME=/home/node
